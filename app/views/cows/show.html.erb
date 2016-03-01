@@ -38,4 +38,4 @@
 <%= link_to raw('<i class="fa fa-thumbs-o-up"></i> ') + 'Vote', "#", :class => "btn btn-warning" %>
 <%= link_to raw('<i class="fa fa-pencil"></i> ') + 'Edit', edit_cow_path(@cow), :class => "btn btn-danger" %>
 <%= link_to raw('<i class="fa fa-arrow-left"></i> ') + 'Back', cows_path, :class => "btn btn-info" %>
-<%= link_to raw('<i class="fa fa-link"></i> ') + 'Alive?', ping_path(:id => @cow.try :host), :class => "btn btn-info" %>
+<%= link_to raw('<i class="fa fa-link"></i> ') + 'Alive?', ping_path(:id => "@cow.try :host"), :class => "btn btn-info" %>
